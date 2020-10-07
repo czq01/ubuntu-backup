@@ -110,7 +110,7 @@ int main() {
         printf("Task exists.\nAbort.");
         exit(-1);
     }
-    const unsigned int sleep_time = 60*60*24*10;
+    const unsigned int sleep_time = 60*60*24*3;
     MYSQL *mysql = NULL;
     int value;
     start:
