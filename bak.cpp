@@ -9,6 +9,7 @@ const int backup_interval[2]{30,180};
 const char* backup_column[2]{"datet","hdatet"};
 const char * folder[2]{"root","home"};
 
+
 bool mysql_initialize(MYSQL ** connect) {
     *connect = mysql_init (NULL);
     if (*connect == NULL) {
@@ -128,3 +129,4 @@ int main(int args, char * argv[]) {
     //sleep(sleep_time);
     return 0;
 }
+
